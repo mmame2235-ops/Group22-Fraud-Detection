@@ -1,0 +1,10 @@
+metric,recorded_value
+Selected model,XGBoost
+Decision threshold,0.9331 (selected on validation)
+Accuracy,0.9995
+Precision,0.8977
+Recall,0.7980
+F1-score,0.8449
+PR-AUC,0.8557
+ROC-AUC,0.9763
+"Confusion matrix (TN, FP, FN, TP)","56,854; 9; 20; 79"

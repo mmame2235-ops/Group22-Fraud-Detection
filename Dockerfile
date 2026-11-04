@@ -12,12 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code and model artifacts
 COPY app.py .
-COPY artifacts/ ./artifacts/
-mkdir artifacts
-# (put your files inside the artifacts folder)
-git add artifacts/
-git commit -m "Add missing artifacts folder"
-git push origin main
+
 # Render sets PORT; default to 5000 locally
 ENV PORT=5000
 EXPOSE 5000

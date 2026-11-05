@@ -1,0 +1,28 @@
+# Secrets and environment
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Git
+.git/
+
+# Data and logs
+data/
+logs/
+
+# Deliverables and screenshots (not needed inside container)
+Deliverable_*.docx
+*.zip
+Readme
+deepseek_dockerfile_*.dockerfile
+
+# Do NOT ignore artifacts/ - the model must be included

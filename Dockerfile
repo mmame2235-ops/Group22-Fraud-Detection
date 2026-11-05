@@ -8,7 +8,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the API source. The trained model artifact is optional at build time.
 COPY app.py .
-
+COPY app.py .
+COPY artifacts/ ./artifacts/
 # Render provides PORT; 10000 is a convenient local/default port.
 ENV PORT=10000
 EXPOSE 10000
